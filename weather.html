@@ -1,0 +1,30 @@
+<html>
+   <head>
+       <link rel="stylesheet" href="weather.css">
+       <title>
+           weather report
+       </title>
+   </head>
+   <body>
+       <div class="container">
+           <div class="row">
+             <div class="col-md-12 text-center">
+               <h3 class="animate-charcter">WEATHER REPORT</h3>
+             </div>
+           </div>
+         </div>
+         <div class="box">
+               <form id="input">
+                 <input type="text" id="city" placeholder="Enter City Name">
+                 <input type="submit" value="Get Updates">
+               </form>
+         </div>
+         <div id="weatherContainer">
+           <marquee id="cityName"></marquee>
+           <span id="temp"></span>
+           <span id="main"></span>
+         </div>
+       </div>
+         <script src="weather.js"></script>
+   </body>
+</html>

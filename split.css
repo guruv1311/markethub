@@ -1,0 +1,26 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/27/e7/9a/27e79ab1552fbb7ef0564c2b6c77bea1.jpg");
+    background-size: cover;
+ }
+ h1{
+    font-size: 60px;
+    text-align: center;
+    color: rgb(16, 15, 15);
+ }
+ .image{
+    margin-left:200px;
+    display: flex;
+ }
+ 
+ .box{
+    background-color: aliceblue;
+    margin-left:350px;
+     width: 250px;
+     border-radius: 10px;
+      padding: 70px;
+      box-shadow: black;
+      text-align: left;
+      opacity: 0.9;
+     box-shadow: rgba(0, 0, 0, 0.3) 0px 30px 1000px, rgba(0, 0, 0, 0.22) 0px 20px 18px;
+     font-size: 20px;
+    }
